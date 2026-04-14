@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+venv_stable/
+
+# Node
+node_modules/
+dist/
+
+# Env files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
