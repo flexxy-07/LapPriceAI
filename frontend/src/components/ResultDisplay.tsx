@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, RefreshCcw, IndianRupee, AlertCircle, ShoppingCart, TrendingUp, ShieldCheck } from 'lucide-react';
+import { Sparkles, RefreshCcw, TrendingUp, ShieldCheck } from 'lucide-react';
 
 interface ResultDisplayProps {
   price: number | null;
@@ -151,4 +151,3 @@ const ResultDisplay: React.FC<ResultDisplayProps> = ({ price, onReset }) => {
 };
 
 export default ResultDisplay;
-;
