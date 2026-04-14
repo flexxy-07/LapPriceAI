@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import LaptopForm from './components/LaptopForm';
 import ResultDisplay from './components/ResultDisplay';
 import { type LaptopInput, predictPrice } from './api/laptopApi';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const App: React.FC = () => {
   const [prediction, setPrediction] = useState<number | null>(null);

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { type LaptopInput, fetchMetadata, type LaptopMetadata } from '../api/laptopApi';
-import { Cpu, HardDrive, Monitor, Server, Weight as WeightIcon, MonitorCheck, Tablet, Calculator, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface LaptopFormProps {
